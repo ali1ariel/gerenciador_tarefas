@@ -27,3 +27,8 @@
 </form>
 
 {% endblock conteudo %}
+{% block menu %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'cadastrar_usuario' %}"> Criar novo usuário </a>
+          </li>
+{% endblock menu %}

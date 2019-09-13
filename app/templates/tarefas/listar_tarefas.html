@@ -21,3 +21,10 @@
 <a href="{% url 'cadastrar_tarefa' %}"><input type="button" value="Cadastrar tarefa"></a>
 
 {% endblock conteudo %}
+
+
+{% block menu %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'deslogar_usuario' %}">Logout </a>
+          </li>
+{% endblock menu %}

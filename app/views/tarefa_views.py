@@ -10,7 +10,6 @@ from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 @login_required()
 def listar_tarefas(request):
-
     tarefas = tarefa_service.listar_tarefas(request.user)
     return render(request, 'tarefas/listar_tarefas.html', {"tarefas": tarefas})
 

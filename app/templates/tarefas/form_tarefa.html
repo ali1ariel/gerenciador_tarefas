@@ -34,3 +34,9 @@
 </form>
 
 {% endblock conteudo %}
+
+{% block menu %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'listar_tarefas' %}"> Voltar a lista de tarefas </a>
+          </li>
+{% endblock menu %}
