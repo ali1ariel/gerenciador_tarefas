@@ -3,6 +3,7 @@ from .views.tarefa_views import *
 from .views.usuarios_view import *
 
 urlpatterns = [
+    path('', listar_tarefas, name='home'),
     path('listar_tarefas/', listar_tarefas, name='listar_tarefas'),
     path('cadastrar_tarefa/', cadastrar_tarefa, name='cadastrar_tarefa'),
     path('editar_tarefa/<int:id>', editar_tarefa, name='editar_tarefa'),
