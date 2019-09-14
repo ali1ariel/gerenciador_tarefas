@@ -23,7 +23,7 @@ pip install -r requirements.txt
  
  Após clonado, baixe o [Bootstrap Compilado](https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip) e descompacte, colocando as pastas **css** e **js** dentro de **'app/static/app'**.
 
- Para utilizar o banco de dados é necessário colocar as credenciais ** settings.py **, na sessão **databases** colocar o user e a senha conforme confirado no seu MYSQL.
+ Para utilizar o banco de dados é necessário colocar as credenciais em **settings.py**, na sessão **databases** colocar o user e a senha conforme confirado no seu MYSQL.
 
  Em seguida, no terminal, utilize o comando:
  ``` 
