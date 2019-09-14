@@ -1,10 +1,11 @@
 # Gerenciador de tarefas
 
-    Um gerenciador de tarefas que foi a base de um minicurso ofertado pela 'TreinaWeb' como 'Semana Python&Django'. É um sistema onde o usuário logado pode colocar tarefas ou qualquer anotação que quiser.
+   Um gerenciador de tarefas que foi a base de um minicurso ofertado pela 'TreinaWeb' como 'Semana Python&Django'. É um   sistema onde o usuário logado pode colocar tarefas ou qualquer anotação que quiser.
 
-    a mesma aplicação se encontra online em: 
-
-    https://semana-python-djangoali1ariel.herokuapp.com/
+   a mesma aplicação se encontra online em: 
+```
+ https://semana-python-djangoali1ariel.herokuapp.com/
+```
 
 ## Iniciando...
 
@@ -19,7 +20,10 @@ Na pasta principal digite o comando a seguir para instalar os requisitos da apli
 pip install -r requirements.txt
 ```
 ### Instalando
- Para utilizar o banco de dados é necessário colocar as credenciais **settings.py**, na sessão **databases** colocar o user e a senha conforme confirado no seu MYSQL.
+ 
+ Após clonado, baixe o [Bootstrap Compilado](https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip) e descompacte, colocando as pastas **css** e **js** dentro de **'app/static/app'**.
+
+ Para utilizar o banco de dados é necessário colocar as credenciais ** settings.py **, na sessão **databases** colocar o user e a senha conforme confirado no seu MYSQL.
 
  Em seguida, no terminal, utilize o comando:
  ``` 
